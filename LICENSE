@@ -1,0 +1,35 @@
+ArchiGeoSharp Proprietary License
+Copyright (c) 2026 ArchiFrog / froggycroak. All rights reserved.
+
+Permission is hereby granted to install and use ArchiGeoSharp NuGet packages
+(including ArchiGeoSharp.Basic) for personal or commercial software development,
+subject to the following conditions:
+
+1. You may reference the published NuGet packages from your applications and
+   libraries.
+
+2. You may not reverse engineer, decompile, disassemble, or otherwise attempt to
+   derive the source code of obfuscated or proprietary assemblies, except to the
+   extent that such activity is expressly permitted by applicable law.
+
+3. You may not redistribute the package contents (binaries, XML documentation, or
+   other packaged assets) as a standalone NuGet package, SDK, or competing
+   geometry library, whether modified or unmodified.
+
+4. Redistribution of applications that merely reference ArchiGeoSharp packages as
+   dependencies is permitted, provided you do not expose ArchiGeoSharp binaries
+   as a redistributable SDK for third parties.
+
+5. Documentation, samples, and website content may be quoted for educational
+   purposes with attribution to ArchiGeoSharp.
+
+6. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+For licensing inquiries, contact the ArchiGeoSharp maintainers via the project
+site: https://froggycroak.github.io/ArchiGeoSharp-site/
