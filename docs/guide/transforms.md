@@ -33,4 +33,4 @@ Plane moved = plane * move;
 // moved.BasePt ≈ (10, 0, 0)
 ```
 
-更完整的类型说明见 [Basic API](/api/basic)。
+类型与成员说明见 **[Basic.Geometry](/api/basic-geometry)**、**[Basic.Transform](/api/basic-transform)**（与 Depute 等八个 API 分组并列）。点、线、多边形与圆的内外和相交判定见 [相对关系](/guide/relations)。

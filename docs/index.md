@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: ArchiGeoSharp
-  text: 建筑几何与计算设计的 C# 内核
-  tagline: 以 Plane / Space 统一坐标系与变换，面向建筑与计算设计场景
+  text: 建筑师的计算几何工具箱
+  tagline: Computational Geometry Toolkit for Architects
   actions:
     - theme: brand
       text: 快速上手
@@ -14,15 +14,15 @@ hero:
       link: https://www.nuget.org/packages/ArchiGeoSharp.Basic
     - theme: alt
       text: API 参考
-      link: /api/basic
+      link: /api/basic-geometry
 
 features:
-  - title: N 维点与向量
-    details: Point / Vector 支持任意维度，通过接口约束降低几何实体间的心智切换成本。
-  - title: 对象即坐标系
-    details: Plane 与 Space3d 同时描述位姿与变换，支持绝对/相对描述与运算符组合。
-  - title: 可组合的强类型
-    details: 右手系、无缩放等约束减少隐式错误，同时保持对象可组合、可复用。
-  - title: 生态扩展
-    details: OpenNurbs / Depute / Raylex 等模块以 coerce 方式对接 Rhino、地图与可视化（后续分包）。
+  - title: 源于现实问题
+    details: 高级几何抽象源于建筑与城市设计中的典型问题，而非对通用图形库的被动适配。
+  - title: 运算符即操作
+    details: 位姿复合、投影与逆变换等操作以运算符约定内嵌于类型体系，提高脚本的表达密度与可读性。
+  - title: 快速交互验证
+    details: 轻量窗口支持平面与空间结果的即时预览与交互检视，缩短算法迭代中的反馈周期。
+  - title: 外部生态连通
+    details: 与Rhino几何类型双向互通，便于在计算内核与建模环境之间分工协作、衔接生产流程。
 ---

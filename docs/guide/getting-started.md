@@ -38,6 +38,8 @@ Plane moved = plane * move;                    // 位姿复合
 
 ## 下一步
 
-- [坐标系与变换教程](/tutorials/transforms)
-- [Basic API 参考](/api/basic)
+- [坐标系与变换](/guide/transforms)
+- [相对关系](/guide/relations)
+- [Basic API（Geometry / Transform / Numeric / Topology）](/api/basic-geometry)
+- [扩展模块指南](/guide/modules)（Depute / OpenNurbs / Raylex / Solver）
 - [许可说明](/license)

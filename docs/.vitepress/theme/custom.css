@@ -1,0 +1,79 @@
+/* 侧栏与正文同色，浅色主题下为白底 */
+:root {
+  --vp-sidebar-bg-color: var(--vp-c-bg);
+}
+
+/* API 侧栏扩展模块：Coming soon 胶囊（text 内嵌 HTML，见 module-api-sidebar.ts） */
+.VPSidebarItem .text:has(.vp-sidebar-soon-pill) {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+.VPSidebarItem .vp-sidebar-soon-pill {
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 1px 8px;
+  border-radius: 9999px;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: var(--vp-c-text-3);
+  background-color: var(--vp-c-default-soft);
+  border: 1px solid var(--vp-c-divider);
+  white-space: nowrap;
+}
+
+.VPHero .heading .text {
+  max-width: none;
+  white-space: nowrap;
+}
+
+/* API 类型页 */
+.vp-doc .api-breadcrumb {
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc .api-breadcrumb code {
+  font-size: 0.875rem;
+}
+
+.vp-doc h1 {
+  margin-top: 0.25rem;
+  letter-spacing: -0.02em;
+}
+
+.vp-doc table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.vp-doc th,
+.vp-doc td {
+  min-width: 6rem;
+}
+
+.vp-doc h3 {
+  margin-top: 1.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--vp-c-divider);
+  font-size: 1.05rem;
+}
+
+.vp-doc h4 {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--vp-c-text-2);
+}
+
+.vp-doc pre {
+  font-size: 0.85rem;
+}

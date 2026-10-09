@@ -7,4 +7,4 @@
 在此之前，你可以：
 
 - 先通过 [ArchiGeoSharp.Basic](https://www.nuget.org/packages/ArchiGeoSharp.Basic) 熟悉内核变换与几何类型
-- 阅读 [Depute API 概览](/api/depute) 了解能力边界与坐标约定
+- 阅读 [Depute 模块指南](/guide/depute) 了解能力边界与坐标约定

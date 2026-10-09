@@ -7,7 +7,8 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Dependencies（仓库内为 Junction，实体在 ProgramCustom，禁止提交）
+node_modules/
 dist
 dist-ssr
 docs/.vitepress/dist
@@ -24,3 +25,5 @@ docs/.vitepress/cache
 *.njsproj
 *.sln
 *.sw?
+
+docs-dev/
