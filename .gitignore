@@ -9,10 +9,14 @@ lerna-debug.log*
 
 # Dependencies（仓库内为 Junction，实体在 ProgramCustom，禁止提交）
 node_modules/
-dist
-dist-ssr
-docs/.vitepress/dist
-docs/.vitepress/cache
+
+# VitePress / Vite 构建与开发缓存（Pages 在 CI 里 npm run build，勿提交产物）
+dist/
+dist-ssr/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/.vitepress/.temp/
+
 *.local
 
 # Editor directories and files
@@ -26,4 +30,8 @@ docs/.vitepress/cache
 *.sln
 *.sw?
 
+# Cursor / 本地 IDE（与站点发布无关）
+.cursor/
+
+# 本地草稿与实验文档
 docs-dev/
