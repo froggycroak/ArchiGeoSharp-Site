@@ -101,7 +101,7 @@ export default defineConfig({
       '/api/': apiPartitionSidebarWithActive()
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/froggycroak/ArchiGeoSharp-site' }
+      { icon: 'github', link: 'https://github.com/froggycroak/ArchiGeoSharp-Site' }
     ],
     footer: {
       message: 'ArchiGeoSharp.Basic 以专有许可发布为 NuGet 包',
