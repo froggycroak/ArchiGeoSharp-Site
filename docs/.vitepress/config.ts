@@ -82,6 +82,7 @@ export default defineConfig({
       }
     ],
     sidebar: {
+      '/': reservedSidebar,
       '/about': reservedSidebar,
       '/license': reservedSidebar,
       '/guide/': learningSidebar,

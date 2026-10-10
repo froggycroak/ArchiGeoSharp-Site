@@ -3,6 +3,64 @@
   --vp-sidebar-bg-color: var(--vp-c-bg);
 }
 
+/*
+ * 首页 layout:home 时默认无 has-sidebar，顶栏站点名/搜索会与入门、API、关于错位。
+ * 桌面端让 .VPNavBar.home 复用与 .VPNavBar.has-sidebar 相同的顶栏几何（见 VPNavBar.vue）。
+ */
+@media (min-width: 960px) {
+  .VPNavBar.home .wrapper {
+    padding: 0;
+  }
+
+  .VPNavBar.home .container {
+    max-width: 100%;
+  }
+
+  .VPNavBar.home .title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 0 32px;
+    width: var(--vp-sidebar-width);
+    height: var(--vp-nav-height);
+    background-color: transparent;
+  }
+
+  .VPNavBar.home .content {
+    position: relative;
+    z-index: 1;
+    padding-right: 32px;
+    padding-left: var(--vp-sidebar-width);
+  }
+
+  .VPNavBar.home .divider {
+    padding-left: var(--vp-sidebar-width);
+  }
+
+  .VPNavBar.home .VPNavBarTitle .title {
+    border-bottom-color: var(--vp-c-divider);
+  }
+}
+
+@media (min-width: 1440px) {
+  .VPNavBar.home .title {
+    padding-left: max(32px, calc((100% - (var(--vp-layout-max-width) - 64px)) / 2));
+    width: calc(
+      (100% - (var(--vp-layout-max-width) - 64px)) / 2 + var(--vp-sidebar-width) - 32px
+    );
+  }
+
+  .VPNavBar.home .content {
+    padding-right: calc((100vw - var(--vp-layout-max-width)) / 2 + 32px);
+    padding-left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width));
+  }
+
+  .VPNavBar.home .divider {
+    padding-left: calc((100vw - var(--vp-layout-max-width)) / 2 + var(--vp-sidebar-width));
+  }
+}
+
 /* API 侧栏扩展模块：Coming soon 胶囊（text 内嵌 HTML，见 module-api-sidebar.ts） */
 .VPSidebarItem .text:has(.vp-sidebar-soon-pill) {
   display: flex;
