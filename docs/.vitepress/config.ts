@@ -64,7 +64,7 @@ export default defineConfig({
   title: 'ArchiGeoSharp',
   description: '面向建筑几何与计算设计的 C# 几何内核',
   lang: 'zh-CN',
-  base: '/ArchiGeoSharp-site/',
+  base: '/ArchiGeoSharp-Site/',
   cleanUrls: true,
   head: [['meta', { charset: 'utf-8' }]],
   ignoreDeadLinks: [

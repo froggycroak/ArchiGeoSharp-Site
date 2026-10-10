@@ -2,7 +2,7 @@
 
 ArchiGeoSharp 以 **专有许可** 发布。你可以通过 NuGet 安装并在应用中引用二进制包；不得对本包进行逆向工程或将包内容再分发为独立 SDK。
 
-完整文本见仓库根目录 [LICENSE](https://github.com/froggycroak/ArchiGeoSharp-site/blob/main/LICENSE)。
+完整文本见仓库根目录 [LICENSE](https://github.com/froggycroak/ArchiGeoSharp-Site/blob/main/LICENSE)。
 
 ## 摘要
 
