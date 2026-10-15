@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: HomeLayout
 
 hero:
   name: ArchiGeoSharp
