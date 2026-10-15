@@ -64,7 +64,8 @@ export default defineConfig({
   title: 'ArchiGeoSharp',
   description: '面向建筑几何与计算设计的 C# 几何内核',
   lang: 'zh-CN',
-  base: '/ArchiGeoSharp-Site/',
+  // 自定义域名在站点根路径发布；子路径 base 仅用于 *.github.io/仓库名/ 预览
+  base: process.env.VITEPRESS_BASE ?? '/',
   cleanUrls: true,
   head: [['meta', { charset: 'utf-8' }]],
   ignoreDeadLinks: [
